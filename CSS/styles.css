@@ -1,0 +1,37 @@
+body{
+  background-color: lavender;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-color: #e26241;
+  border-width: 10px;
+  height: 0px;
+  width: 5%;
+}
+
+img {
+  height: 200px;
+}
+
+p{
+  font-weight: bold;
+  color: #347474;
+}
+
+h1{
+  color: #f0134d;
+}
+
+h2{
+  color: #f0134d;
+}
+
+h3{
+  color: #e26241;
+}
+
+label{
+  color: blue;
+  font-weight: bold;
+}
