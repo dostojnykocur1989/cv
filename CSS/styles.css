@@ -12,6 +12,7 @@ hr{
 
 img {
   height: 200px;
+  filter: blur(1px);
 }
 
 p{
@@ -35,3 +36,56 @@ label{
   color: blue;
   font-weight: bold;
 }
+
+.image{
+    float: none;
+    width: 40%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    filter: blur(3px);
+
+}
+
+.tlo{
+    position: absolute;
+    background:  rgba(0, 0, 0, 0.5);
+    width: 97%;
+    padding: 1%;
+    text-align: center;
+    top:80%;
+    left: 50%;
+    font-size: 15px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+  .text{
+    font-size: 1.50vw;
+  }
+
+
+.imgbottom{
+    float: none;
+    width: 70%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imgbottom img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    filter: blur(0px);
+    border-radius: 5px;
+  }
