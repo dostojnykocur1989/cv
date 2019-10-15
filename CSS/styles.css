@@ -10,7 +10,7 @@ hr{
   width: 5%;
 }
 
-img {
+img:hover {
   height: 200px;
   filter: blur(1px);
 }
@@ -50,8 +50,13 @@ label{
     height: 100%;
     width: 100%;
     display: block;
-    filter: blur(3px);
-
+    filter: blur(5px);
+}
+    .image img:hover{
+        height: 100%;
+        width: 100%;
+        display: block;
+        filter: blur(0px);
 }
 
 .tlo{
@@ -60,12 +65,14 @@ label{
     width: 97%;
     padding: 1%;
     text-align: center;
-    top:80%;
+    top: 79%;
     left: 50%;
     font-size: 15px;
     color: #fff;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    border-radius: 3px;
+
 }
 
   .text{
@@ -86,6 +93,33 @@ label{
     height: 100%;
     width: 100%;
     display: block;
-    filter: blur(0px);
-    border-radius: 5px;
+    filter: blur(10px);
+    border-radius: 50% 50%;
   }
+.imgbottom img:hover{
+  filter: blur(0px);
+  border-radius: 5px;
+  animation: 5s;
+}
+.trans img:hover{
+  -moz-webkit-transition: background 1s, border-radius 1s, filter 3s;
+  transition: background 1s, border-radius 1s; filter: 3s;
+
+.clover:nth-child(1) {
+    border-bottom-right-radius: 0px;
+
+}
+.clover:nth-child(2) {
+    border-bottom-left-radius: 0px;
+}
+.clover:nth-child(3) {
+    border-top-right-radius: 0px;
+}
+.clover:nth-child(4) {
+    border-top-left-radius: 0px;
+}
+
+
+#heading{
+  color: blue;
+}
